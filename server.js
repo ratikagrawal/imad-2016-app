@@ -12,7 +12,7 @@ app.get('/article-Fourth', function (req, res) {
   res.send('Welcome to Page 1');
 });
 
-app.get('/article-one.html', function (req, res) {
+app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 
