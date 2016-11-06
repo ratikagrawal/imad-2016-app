@@ -3,6 +3,10 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
 }
+.navigation
+    {
+        list-style-type:none;
+    }
 
 .center {
     text-align: center;
