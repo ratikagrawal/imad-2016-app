@@ -5,6 +5,7 @@ body {
 }
 .navigation
     {
+        float:left;
         display:inline;
         list-style-type:none;
         
