@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 });
 app.get('/home',function(req,res){
     res.sendFile(path.join(__dirname,'ui','homepage.html'));
-})
+});
 app.get('/article-Fourth', function (req, res) {
   res.send('Welcome to Page 1');
 });
