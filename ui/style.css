@@ -6,6 +6,11 @@ body {
 .logo {
     float:left;
 }
+.headerimg{
+    background-image: url("https://theluxurytravelexpert.files.wordpress.com/2014/01/scenery.jpg");
+    height: 200px;
+    width:100%;
+}
 .navigation li
     {
         float:left;
