@@ -11,16 +11,8 @@ body {
     width:100%;
    
 }
-.navigation li
-    {
-        float:left;
-        list-style-type:none;
-        display:block;
-        padding: 14px 40px;
-        color:white;
-        background-color: grey;
-        border-right:1px solid white;
-    }
+
+
 .headercontent{
      text-align: center;
      font-size: 40px;
@@ -56,4 +48,29 @@ body {
     font-family: sans-serif;
     padding-left: 20;
     padding-right: 20;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation li a:hover {
+    background-color: #111;
 }
