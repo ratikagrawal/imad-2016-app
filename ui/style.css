@@ -14,22 +14,16 @@ body {
 .navigation li
     {
         float:left;
-        
         list-style-type:none;
         display:block;
         padding: 14px 40px;
         color:white;
         background-color: grey;
         border-right:1px solid white;
-        
-       
-        
-        
     }
 .headercontent{
      text-align: center;
      font-size: 40px;
-    
      padding-top: 100px;
 
 }
