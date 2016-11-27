@@ -33,6 +33,11 @@ body {
      padding-top: 100px;
 
 }
+.headercontent img{
+    width: 30px;
+    height: 30px;
+    border: 25px solid;
+}
 
 .center {
     text-align: center;
